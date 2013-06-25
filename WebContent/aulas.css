@@ -1,0 +1,104 @@
+.AreaConteudoPagina  {
+	background-image:none;
+	padding-left:5pt;
+	padding-bottom:5pt;
+	padding-right:5pt;
+	padding-top:5pt;
+	margin-left:5pt;
+	margin-bottom:5pt;
+	margin-top:5pt;
+	margin-right:5pt;
+	background-repeat:repeat-x;
+	background-color:white;
+}
+
+.Titulo {
+	text-decoration:none;
+	vertical-align:normal;
+	color:navy;
+	font-weight:bold;
+	font-family:verdana,helvetica;
+	font-style:normal;
+	display:inline;
+	font-size:12pt;
+}
+
+.Descricao {
+	font-weight:normal;
+	display:inline;
+	color:black;
+	vertical-align:normal;
+	font-size:10pt;
+	font-style:normal;
+	font-family:verdana,helvetica;
+	text-decoration:none;
+}
+
+.MenuTitulo {
+	vertical-align:normal;
+	width:95%;
+	padding-top:5px; padding-left:5px; padding-bottom:5px;
+	visibility: visible;
+	background-color:lightblue;
+	color:black;
+	font-size:10pt;
+	font-weight:bold;
+	font-style:normal;
+	font-family:verdana,helvetica;
+	text-decoration:none;
+}
+
+.MenuTexto {
+	color:black;
+	font-family:verdana,helvetica;
+	vertical-align:normal;
+	font-size:9pt;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+}
+
+.MenuItem A:link {
+	font-size:10pt;
+	color:blue;
+	font-family:verdana,helvetica;
+	text-decoration:none;
+	font-weight:normal;
+	font-style:normal;
+	vertical-align:normal;
+}
+
+.MenuItem A:visited {
+	text-decoration:none;
+	color:purple;
+	vertical-align:normal;
+	font-weight:normal;
+	font-style:normal;
+	font-family:verdana,helvetica;
+	font-size:10pt;
+}
+
+.MenuItem A:hover {
+	font-size:10pt;
+	color:gray;
+	text-decoration:none;
+	font-weight:normal;
+	font-style:normal;
+	font-family:verdana,helvetica;
+	vertical-align:normal;
+}
+
+.AreaConteudoFormularioFundo {
+	background-color: lightblue;
+}
+
+.AreaConteudoFormularioTexto {
+	text-decoration: none;
+	color: black;
+	display: inline;
+	vertical-align: normal;
+	font-weight: normal;
+	font-family: verdana, helvetica;
+	font-style: normal;
+	font-size: 10pt;
+}

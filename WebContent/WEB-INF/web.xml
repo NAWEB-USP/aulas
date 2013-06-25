@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+	<session-config>   
+   		<session-timeout>150</session-timeout>   
+	</session-config> 
+
+  <servlet>
+    <servlet-name>LoginManager</servlet-name>
+    <servlet-class>com.aulas.gerinterface.LoginManager</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginManager</servlet-name>
+    <url-pattern>/LoginManager</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>GerenciaAgrupamentos</servlet-name>
+    <servlet-class>com.aulas.gerinterface.GerenciaAgrupamentos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GerenciaAgrupamentos</servlet-name>
+    <url-pattern>/GerenciaAgrupamentos</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>GerenciaAlunos</servlet-name>
+    <servlet-class>com.aulas.gerinterface.GerenciaAlunos</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GerenciaAlunos</servlet-name>
+    <url-pattern>/GerenciaAlunos</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>GerenciaDisciplinas</servlet-name>
+    <servlet-class>com.aulas.gerinterface.GerenciaDisciplinas</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GerenciaDisciplinas</servlet-name>
+    <url-pattern>/GerenciaDisciplinas</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>GerenciaListas</servlet-name>
+    <servlet-class>com.aulas.gerinterface.GerenciaListas</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GerenciaListas</servlet-name>
+    <url-pattern>/GerenciaListas</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>GerenciaQuestoes</servlet-name>
+    <servlet-class>com.aulas.gerinterface.GerenciaQuestoes</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GerenciaQuestoes</servlet-name>
+    <url-pattern>/GerenciaQuestoes</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>GerenciaRespostas</servlet-name>
+    <servlet-class>com.aulas.gerinterface.GerenciaRespostas</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GerenciaRespostas</servlet-name>
+    <url-pattern>/GerenciaRespostas</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>GerenciaTurmas</servlet-name>
+    <servlet-class>com.aulas.gerinterface.GerenciaTurmas</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GerenciaTurmas</servlet-name>
+    <url-pattern>/GerenciaTurmas</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>LancarNotas</servlet-name>
+    <servlet-class>com.aulas.gerinterface.LancarNotas</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LancarNotas</servlet-name>
+    <url-pattern>/LancarNotas</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>LeArquivo</servlet-name>
+    <servlet-class>com.aulas.gerinterface.LeArquivo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LeArquivo</servlet-name>
+    <url-pattern>/LeArquivo</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>Logout</servlet-name>
+    <servlet-class>com.aulas.gerinterface.Logout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logout</servlet-name>
+    <url-pattern>/Logout</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>OpcoesAluno</servlet-name>
+    <servlet-class>com.aulas.gerinterface.OpcoesAluno</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OpcoesAluno</servlet-name>
+    <url-pattern>/OpcoesAluno</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>OpcoesLista</servlet-name>
+    <servlet-class>com.aulas.gerinterface.OpcoesLista</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OpcoesLista</servlet-name>
+    <url-pattern>/OpcoesLista</url-pattern>
+  </servlet-mapping>
+
+    <servlet>
+    <servlet-name>OpcoesListaProfessor</servlet-name>
+    <servlet-class>com.aulas.gerinterface.OpcoesListaProfessor</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>OpcoesListaProfessor</servlet-name>
+    <url-pattern>/OpcoesListaProfessor</url-pattern>
+  </servlet-mapping>
+
+
+</web-app>
